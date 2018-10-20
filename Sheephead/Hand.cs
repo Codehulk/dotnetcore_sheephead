@@ -6,5 +6,12 @@ namespace Sheephead
         public Hand()
         {
         }
+
+        internal void AddCard(object p)
+        {
+           throw new NotImplementedException();
+        }
+
+
     }
 }

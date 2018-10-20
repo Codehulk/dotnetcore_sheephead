@@ -6,7 +6,13 @@ namespace Sheephead.Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game g = new Game(
+                new Player("Doug"),
+                new Player("Betty"),
+                new Player("Bruce")
+            );
+
+            //g.Deal();
         }
     }
 }
